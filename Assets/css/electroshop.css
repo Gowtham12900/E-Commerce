@@ -1,0 +1,49 @@
+.carousel-img {
+  height: 400px;
+  object-fit: cover;
+}
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ebebeb;
+  }
+
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-title {
+    font-weight: 600;
+  }
+
+  .card-text {
+    color: #555;
+    min-height: 60px;
+  }
+
+  .price-tag {
+    font-size: 1.2rem;
+    color: #198754;
+  }
+
+  .quantity-input {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.2s;
+  }
+
+  .quantity-input:focus {
+    border-color: #198754;
+    box-shadow: 0 0 0 0.1rem rgba(25, 135, 84, 0.25);
+  }
+
+  .btn-primary {
+    background: linear-gradient(135deg, #198754, #28a745);
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background: linear-gradient(135deg, #157347, #218838);
+  }
